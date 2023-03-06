@@ -1,0 +1,112 @@
+.navbar__container{
+    background-color:#541554;
+    color:white;
+    display:flex;
+    padding:10px;
+    font-weight: bold;
+}
+.navbar__left {
+    display: flex;
+    flex:2;
+    padding:10px;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+}
+.navbar__left img
+{
+    margin-left:30px;
+    height:50px;
+    width:100px;
+    object-fit: contain;
+    color:white;
+}
+p{
+    cursor: pointer ;
+}
+.expand__more{
+    display: block;
+}
+.productDescription{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.expand__more:hover .product_details__hidden{
+    background-color: white;
+    color:black;
+    display: block;
+    /* padding:20px; */
+    width:150px;
+    border-radius: 10px;
+}
+.expand__more:hover .product_details__hidden p{
+    padding:5px;
+}
+.expand__more:hover .product_details__hidden p:hover{
+    background-color:#1264a3;
+    color:white;
+}
+.product_details__hidden{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.navbar__right{
+    margin-left: 30px;
+    margin-right:30px;
+    flex:1;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchIcon
+{
+    margin-top:5px;
+    margin-left:-10px;
+    cursor: pointer;
+}
+.product_details__hidden{
+    display: none;
+    position: absolute;
+    padding:0px;
+    margin:0px;
+}
+.button__container .button {
+    /* margin-left:-20px; */
+    background-color: #fff;
+    color:#541554;
+    padding:10px;
+    outline:none;
+    border: none;
+    cursor: pointer;
+    width:100%;
+    margin-top:10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.button__container{
+    width: 130px;
+    height:50px;
+    margin:0;
+    padding:0 5px;
+    text-align: center;
+}
+.button__container_Sales{
+    width: 150px;
+    height:50px;
+    margin:0;
+    border:1px solid #fff;
+    padding:0 5px;
+    text-align: center;
+    border-radius:10px;
+    margin-left: 13px;
+}
+.menu__hidden
+{
+    display:none;
+}

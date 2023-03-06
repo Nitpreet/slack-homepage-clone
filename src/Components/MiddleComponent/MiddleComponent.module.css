@@ -1,0 +1,72 @@
+.middleComponent__outer__container{
+}
+.middleComponent__container{
+    margin:0px;
+    padding:40px;
+    background-color:white;
+    text-align: center;
+}
+.middleComponent__heading
+{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 60px;
+}
+.middleComponent__text{
+    font-size: 18px;
+    line-height: 32px;
+}
+.middleComponent__buttons{
+    display: flex;
+    flex-direction: row;
+    margin-right:400px;
+    margin-left:400px;
+    margin-top: 30px;;
+    align-items: center;
+}
+.PurpleBtn{
+    background-color:#611f69;
+    color:white;
+    width:100%;
+    padding:10px;
+    width:400px;
+    border-radius: 20px;
+    cursor:pointer;
+}
+.whiteBtn{
+    cursor:pointer;
+    margin-left:20px;
+    padding: 10px;
+    width: 100%;
+    color:#611f69;
+    border-radius: 10px;
+    border:1px solid #611f69;
+}
+.PurpleBtn:hover{
+    background-color: #400d40;
+}
+.whiteBtn:hover{
+    border:2px solid #400d40;
+    color:#400d40;
+}
+.middleComponent__figures{
+
+    display: flex;
+    flex-direction: row;
+    margin-left:40px;
+    margin-right: 40px;
+}
+.figure1{
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+}
+.numberPercent{
+    color:#611f69;
+    font-size:40px;
+    font-weight: bold;
+}
+.figure1 p{
+    cursor: inherit;
+    margin-top:0px;
+}

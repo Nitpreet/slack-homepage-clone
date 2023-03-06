@@ -1,0 +1,12 @@
+.welcomeComponent__container{
+    background-color: #f4ede4;
+    /* margin-left:50px; */
+    /* margin-right:50px; */
+    padding-top:20px;
+    padding-bottom:20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* padding:20px; */
+    /* height:500px; */
+}

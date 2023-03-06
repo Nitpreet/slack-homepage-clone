@@ -1,0 +1,23 @@
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-left:100px;
+    margin-right:100px;
+    padding:20px;
+}
+.footer__container div{
+    display: flex;
+    flex-direction: column;
+}
+.footer__container div div{
+    /* font-weight: bold; */
+    font-size:18px;
+}
+.footer__container div span{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.footer__container div span:hover{
+    color:#1264a3;
+}

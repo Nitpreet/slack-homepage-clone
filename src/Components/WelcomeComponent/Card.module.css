@@ -1,0 +1,21 @@
+.card__container{
+    background-color: white;
+    display: flex;
+    flex-direction: column ;
+    width:300px;
+}
+.card__container img
+{
+    width: 100%;
+}
+.text div{
+   padding:10px;
+}
+.card__container:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px grey;
+}
+.next{
+    display: flex;
+    flex-direction: row;
+}

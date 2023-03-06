@@ -1,0 +1,25 @@
+.brand__container{
+    background-color: #f4ede4;
+    display: block;
+    padding:10px;
+    text-align: center;
+}
+.brand__main{
+    
+    margin-left:150px;
+    margin-right:150px;
+    margin-top:50px;
+   
+}
+.brand__container .logo
+{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.brand__container img{
+    height:100px;
+    width: 100px;
+    object-fit: contain;
+}
